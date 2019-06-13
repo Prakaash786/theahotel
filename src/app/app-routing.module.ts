@@ -8,16 +8,18 @@ import { WeddingsComponent } from 'src/app/weddings/weddings.component';
 import { OffersComponent } from 'src/app/offers/offers.component';
 import { SignupComponent } from 'src/app/auth/signup/signup.component';
 import { SigninComponent } from 'src/app/auth/signin/signin.component';
+import { HomeComponent } from 'src/app/home/home.component';
 
 const routes: Routes = [
-  {path:'accomodation', component:AccomodationComponent},
-  {path:'celebrations', component:CelebrationsComponent},
-  {path:'food-and-beverage', component:FoodAndBeverageComponent},
-  {path:'lifestyle', component:LifestyleComponent},
-  {path:'weddings', component:WeddingsComponent},
-  {path:'offers', component:OffersComponent},
-  {path:'signin', component:SigninComponent},
-  {path:'signup', component:SignupComponent}
+  {path: 'home', component: HomeComponent},
+  {path: 'accomodation', component: AccomodationComponent},
+  {path: 'celebrations', component: CelebrationsComponent},
+  {path: 'food-and-beverage', component: FoodAndBeverageComponent},
+  {path: 'lifestyle', component: LifestyleComponent},
+  {path: 'weddings', component: WeddingsComponent},
+  {path: 'offers', component: OffersComponent},
+  {path: 'signin', component: SigninComponent},
+  {path: 'signup', component: SignupComponent}
 ];
 
 @NgModule({
